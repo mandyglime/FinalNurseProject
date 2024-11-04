@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77824CAE2CD96F060052A0E6 /* FinalNurseProject Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 77824CAD2CD96F060052A0E6 /* FinalNurseProject Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77824C982CD96F060052A0E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77824C7F2CD96F040052A0E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77824C862CD96F040052A0E6;
+			remoteInfo = FinalNurseProject;
+		};
+		77824CA22CD96F060052A0E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77824C7F2CD96F040052A0E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77824C862CD96F040052A0E6;
+			remoteInfo = FinalNurseProject;
+		};
+		77824CAF2CD96F060052A0E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77824C7F2CD96F040052A0E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77824CAC2CD96F060052A0E6;
+			remoteInfo = "FinalNurseProject Watch App";
+		};
+		77824CC02CD96F070052A0E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77824C7F2CD96F040052A0E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77824CAC2CD96F060052A0E6;
+			remoteInfo = "FinalNurseProject Watch App";
+		};
+		77824CCA2CD96F070052A0E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77824C7F2CD96F040052A0E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77824CAC2CD96F060052A0E6;
+			remoteInfo = "FinalNurseProject Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		77824CD62CD96F070052A0E6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				77824CAE2CD96F060052A0E6 /* FinalNurseProject Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		77824C872CD96F040052A0E6 /* FinalNurseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalNurseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77824C972CD96F060052A0E6 /* FinalNurseProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalNurseProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77824CA12CD96F060052A0E6 /* FinalNurseProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalNurseProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77824CAD2CD96F060052A0E6 /* FinalNurseProject Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FinalNurseProject Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77824CBF2CD96F070052A0E6 /* FinalNurseProject Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FinalNurseProject Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77824CC92CD96F070052A0E6 /* FinalNurseProject Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FinalNurseProject Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		77824C892CD96F040052A0E6 /* FinalNurseProject */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FinalNurseProject;
+			sourceTree = "<group>";
+		};
+		77824C9A2CD96F060052A0E6 /* FinalNurseProjectTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FinalNurseProjectTests;
+			sourceTree = "<group>";
+		};
+		77824CA42CD96F060052A0E6 /* FinalNurseProjectUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FinalNurseProjectUITests;
+			sourceTree = "<group>";
+		};
+		77824CB12CD96F060052A0E6 /* FinalNurseProject Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "FinalNurseProject Watch App";
+			sourceTree = "<group>";
+		};
+		77824CC22CD96F070052A0E6 /* FinalNurseProject Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "FinalNurseProject Watch AppTests";
+			sourceTree = "<group>";
+		};
+		77824CCC2CD96F070052A0E6 /* FinalNurseProject Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "FinalNurseProject Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77824C842CD96F040052A0E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77824C942CD96F060052A0E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77824C9E2CD96F060052A0E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77824CAA2CD96F060052A0E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77824CBC2CD96F070052A0E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77824CC62CD96F070052A0E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77824C7E2CD96F040052A0E6 = {
+			isa = PBXGroup;
+			children = (
+				77824C892CD96F040052A0E6 /* FinalNurseProject */,
+				77824C9A2CD96F060052A0E6 /* FinalNurseProjectTests */,
+				77824CA42CD96F060052A0E6 /* FinalNurseProjectUITests */,
+				77824CB12CD96F060052A0E6 /* FinalNurseProject Watch App */,
+				77824CC22CD96F070052A0E6 /* FinalNurseProject Watch AppTests */,
+				77824CCC2CD96F070052A0E6 /* FinalNurseProject Watch AppUITests */,
+				77824C882CD96F040052A0E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77824C882CD96F040052A0E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77824C872CD96F040052A0E6 /* FinalNurseProject.app */,
+				77824C972CD96F060052A0E6 /* FinalNurseProjectTests.xctest */,
+				77824CA12CD96F060052A0E6 /* FinalNurseProjectUITests.xctest */,
+				77824CAD2CD96F060052A0E6 /* FinalNurseProject Watch App.app */,
+				77824CBF2CD96F070052A0E6 /* FinalNurseProject Watch AppTests.xctest */,
+				77824CC92CD96F070052A0E6 /* FinalNurseProject Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77824C862CD96F040052A0E6 /* FinalNurseProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77824CD72CD96F070052A0E6 /* Build configuration list for PBXNativeTarget "FinalNurseProject" */;
+			buildPhases = (
+				77824C832CD96F040052A0E6 /* Sources */,
+				77824C842CD96F040052A0E6 /* Frameworks */,
+				77824C852CD96F040052A0E6 /* Resources */,
+				77824CD62CD96F070052A0E6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77824CB02CD96F060052A0E6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				77824C892CD96F040052A0E6 /* FinalNurseProject */,
+			);
+			name = FinalNurseProject;
+			packageProductDependencies = (
+			);
+			productName = FinalNurseProject;
+			productReference = 77824C872CD96F040052A0E6 /* FinalNurseProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77824C962CD96F060052A0E6 /* FinalNurseProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77824CDA2CD96F070052A0E6 /* Build configuration list for PBXNativeTarget "FinalNurseProjectTests" */;
+			buildPhases = (
+				77824C932CD96F060052A0E6 /* Sources */,
+				77824C942CD96F060052A0E6 /* Frameworks */,
+				77824C952CD96F060052A0E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77824C992CD96F060052A0E6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				77824C9A2CD96F060052A0E6 /* FinalNurseProjectTests */,
+			);
+			name = FinalNurseProjectTests;
+			packageProductDependencies = (
+			);
+			productName = FinalNurseProjectTests;
+			productReference = 77824C972CD96F060052A0E6 /* FinalNurseProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77824CA02CD96F060052A0E6 /* FinalNurseProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77824CDD2CD96F070052A0E6 /* Build configuration list for PBXNativeTarget "FinalNurseProjectUITests" */;
+			buildPhases = (
+				77824C9D2CD96F060052A0E6 /* Sources */,
+				77824C9E2CD96F060052A0E6 /* Frameworks */,
+				77824C9F2CD96F060052A0E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77824CA32CD96F060052A0E6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				77824CA42CD96F060052A0E6 /* FinalNurseProjectUITests */,
+			);
+			name = FinalNurseProjectUITests;
+			packageProductDependencies = (
+			);
+			productName = FinalNurseProjectUITests;
+			productReference = 77824CA12CD96F060052A0E6 /* FinalNurseProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		77824CAC2CD96F060052A0E6 /* FinalNurseProject Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77824CD32CD96F070052A0E6 /* Build configuration list for PBXNativeTarget "FinalNurseProject Watch App" */;
+			buildPhases = (
+				77824CA92CD96F060052A0E6 /* Sources */,
+				77824CAA2CD96F060052A0E6 /* Frameworks */,
+				77824CAB2CD96F060052A0E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				77824CB12CD96F060052A0E6 /* FinalNurseProject Watch App */,
+			);
+			name = "FinalNurseProject Watch App";
+			packageProductDependencies = (
+			);
+			productName = "FinalNurseProject Watch App";
+			productReference = 77824CAD2CD96F060052A0E6 /* FinalNurseProject Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77824CBE2CD96F070052A0E6 /* FinalNurseProject Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77824CE02CD96F070052A0E6 /* Build configuration list for PBXNativeTarget "FinalNurseProject Watch AppTests" */;
+			buildPhases = (
+				77824CBB2CD96F070052A0E6 /* Sources */,
+				77824CBC2CD96F070052A0E6 /* Frameworks */,
+				77824CBD2CD96F070052A0E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77824CC12CD96F070052A0E6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				77824CC22CD96F070052A0E6 /* FinalNurseProject Watch AppTests */,
+			);
+			name = "FinalNurseProject Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "FinalNurseProject Watch AppTests";
+			productReference = 77824CBF2CD96F070052A0E6 /* FinalNurseProject Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77824CC82CD96F070052A0E6 /* FinalNurseProject Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77824CE32CD96F070052A0E6 /* Build configuration list for PBXNativeTarget "FinalNurseProject Watch AppUITests" */;
+			buildPhases = (
+				77824CC52CD96F070052A0E6 /* Sources */,
+				77824CC62CD96F070052A0E6 /* Frameworks */,
+				77824CC72CD96F070052A0E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77824CCB2CD96F070052A0E6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				77824CCC2CD96F070052A0E6 /* FinalNurseProject Watch AppUITests */,
+			);
+			name = "FinalNurseProject Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "FinalNurseProject Watch AppUITests";
+			productReference = 77824CC92CD96F070052A0E6 /* FinalNurseProject Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77824C7F2CD96F040052A0E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					77824C862CD96F040052A0E6 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					77824C962CD96F060052A0E6 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 77824C862CD96F040052A0E6;
+					};
+					77824CA02CD96F060052A0E6 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 77824C862CD96F040052A0E6;
+					};
+					77824CAC2CD96F060052A0E6 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					77824CBE2CD96F070052A0E6 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 77824CAC2CD96F060052A0E6;
+					};
+					77824CC82CD96F070052A0E6 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 77824CAC2CD96F060052A0E6;
+					};
+				};
+			};
+			buildConfigurationList = 77824C822CD96F040052A0E6 /* Build configuration list for PBXProject "FinalNurseProject" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77824C7E2CD96F040052A0E6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 77824C882CD96F040052A0E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77824C862CD96F040052A0E6 /* FinalNurseProject */,
+				77824C962CD96F060052A0E6 /* FinalNurseProjectTests */,
+				77824CA02CD96F060052A0E6 /* FinalNurseProjectUITests */,
+				77824CAC2CD96F060052A0E6 /* FinalNurseProject Watch App */,
+				77824CBE2CD96F070052A0E6 /* FinalNurseProject Watch AppTests */,
+				77824CC82CD96F070052A0E6 /* FinalNurseProject Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77824C852CD96F040052A0E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77824C952CD96F060052A0E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77824C9F2CD96F060052A0E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77824CAB2CD96F060052A0E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77824CBD2CD96F070052A0E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77824CC72CD96F070052A0E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77824C832CD96F040052A0E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77824C932CD96F060052A0E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77824C9D2CD96F060052A0E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77824CA92CD96F060052A0E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77824CBB2CD96F070052A0E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77824CC52CD96F070052A0E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77824C992CD96F060052A0E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77824C862CD96F040052A0E6 /* FinalNurseProject */;
+			targetProxy = 77824C982CD96F060052A0E6 /* PBXContainerItemProxy */;
+		};
+		77824CA32CD96F060052A0E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77824C862CD96F040052A0E6 /* FinalNurseProject */;
+			targetProxy = 77824CA22CD96F060052A0E6 /* PBXContainerItemProxy */;
+		};
+		77824CB02CD96F060052A0E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77824CAC2CD96F060052A0E6 /* FinalNurseProject Watch App */;
+			targetProxy = 77824CAF2CD96F060052A0E6 /* PBXContainerItemProxy */;
+		};
+		77824CC12CD96F070052A0E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77824CAC2CD96F060052A0E6 /* FinalNurseProject Watch App */;
+			targetProxy = 77824CC02CD96F070052A0E6 /* PBXContainerItemProxy */;
+		};
+		77824CCB2CD96F070052A0E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77824CAC2CD96F060052A0E6 /* FinalNurseProject Watch App */;
+			targetProxy = 77824CCA2CD96F070052A0E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		77824CD12CD96F070052A0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77824CD22CD96F070052A0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		77824CD42CD96F070052A0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FinalNurseProject Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 847584X9AW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FinalNurseProject;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = mandy.FinalNurseProject;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mandy.FinalNurseProject.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		77824CD52CD96F070052A0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FinalNurseProject Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 847584X9AW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FinalNurseProject;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = mandy.FinalNurseProject;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mandy.FinalNurseProject.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+		77824CD82CD96F070052A0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FinalNurseProject/Preview Content\"";
+				DEVELOPMENT_TEAM = 847584X9AW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FinalNurseProject;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mandy.FinalNurseProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77824CD92CD96F070052A0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FinalNurseProject/Preview Content\"";
+				DEVELOPMENT_TEAM = 847584X9AW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FinalNurseProject;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mandy.FinalNurseProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77824CDB2CD96F070052A0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 847584X9AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mandy.FinalNurseProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinalNurseProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinalNurseProject";
+			};
+			name = Debug;
+		};
+		77824CDC2CD96F070052A0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 847584X9AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mandy.FinalNurseProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinalNurseProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinalNurseProject";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77824CDE2CD96F070052A0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 847584X9AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mandy.FinalNurseProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinalNurseProject;
+			};
+			name = Debug;
+		};
+		77824CDF2CD96F070052A0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 847584X9AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mandy.FinalNurseProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinalNurseProject;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77824CE12CD96F070052A0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 847584X9AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mandy.FinalNurseProject-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinalNurseProject Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinalNurseProject Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		77824CE22CD96F070052A0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 847584X9AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mandy.FinalNurseProject-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinalNurseProject Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinalNurseProject Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+		77824CE42CD96F070052A0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 847584X9AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mandy.FinalNurseProject-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "FinalNurseProject Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		77824CE52CD96F070052A0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 847584X9AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mandy.FinalNurseProject-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "FinalNurseProject Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77824C822CD96F040052A0E6 /* Build configuration list for PBXProject "FinalNurseProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77824CD12CD96F070052A0E6 /* Debug */,
+				77824CD22CD96F070052A0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77824CD32CD96F070052A0E6 /* Build configuration list for PBXNativeTarget "FinalNurseProject Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77824CD42CD96F070052A0E6 /* Debug */,
+				77824CD52CD96F070052A0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77824CD72CD96F070052A0E6 /* Build configuration list for PBXNativeTarget "FinalNurseProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77824CD82CD96F070052A0E6 /* Debug */,
+				77824CD92CD96F070052A0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77824CDA2CD96F070052A0E6 /* Build configuration list for PBXNativeTarget "FinalNurseProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77824CDB2CD96F070052A0E6 /* Debug */,
+				77824CDC2CD96F070052A0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77824CDD2CD96F070052A0E6 /* Build configuration list for PBXNativeTarget "FinalNurseProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77824CDE2CD96F070052A0E6 /* Debug */,
+				77824CDF2CD96F070052A0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77824CE02CD96F070052A0E6 /* Build configuration list for PBXNativeTarget "FinalNurseProject Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77824CE12CD96F070052A0E6 /* Debug */,
+				77824CE22CD96F070052A0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77824CE32CD96F070052A0E6 /* Build configuration list for PBXNativeTarget "FinalNurseProject Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77824CE42CD96F070052A0E6 /* Debug */,
+				77824CE52CD96F070052A0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77824C7F2CD96F040052A0E6 /* Project object */;
+}
